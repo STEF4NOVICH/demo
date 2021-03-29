@@ -5,11 +5,13 @@ include('header.php');
 ?>
 
 <body>
-    <div class="form">
-        <p>Hey, <?php echo $_SESSION['username']; ?>!</p>
-        <p>Så vi landet på dashboard, her kan Berit se oversigt over medarbejdere osv</p>
-        <p><a href="logout.php">Logout</a></p>
-    </div>
+    <section class="site-wrapper">
+        <div class="form">
+            <p>Hey, <?php echo $_SESSION['username']; ?>!</p>
+            <p>Så vi landet på dashboard, her kan Berit se oversigt over medarbejdere osv</p>
+            <p><a href="logout.php">Logout</a></p>
+        </div>
+    </section>
 </body>
 
 </html>

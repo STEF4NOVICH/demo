@@ -22,7 +22,7 @@
 
         $query    = "SELECT * FROM `users` WHERE username='$username'
                      AND password='" . md5($password) . "'";
-        $result = mysqli_query($con, $query) or die(mysqli_error());
+        $result = mysqli_query($con, $query) or die(mysql_error());
         $rows = mysqli_num_rows($result);
         if ($rows == 1) {
             $_SESSION['username'] = $username;
@@ -39,13 +39,16 @@
         }
     } else {
     ?>
+        <section class="site-wrapper">
 
-        <form method="post" name="login">
-            <h1>Login</h1>
-            <input type="text" name="username" placeholder="Username" autofocus="true" />
-            <input type="password" name="password" placeholder="Password" />
-            <input type="submit" value="Login" name="submit" />
-        </form>
+            <form class="loginform" method="post" name="login">
+                <h1>Login</h1>
+                <input type="text" name="username" placeholder="Username" autofocus="true" />
+                <input type="password" name="password" placeholder="Password" />
+                <input type="submit" value="Login" name="submit" />
+            </form>
+
+        </section>
 
     <?php
     }
