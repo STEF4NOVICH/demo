@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+/* LOGO + BURGERMENU */
+
+.logo-burger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 10vh;
+}
+
+.burger {
+    display: none;
+}
+
+.burger div {
+    width: 40px;
+    height: 3px;
+    background-color: #df5047;
+    margin: 7px;
+    transition: all 0.3s ease;
+}
+
+/* site container samt gennemgående stripe på nav */
+
+.site-wrapper {
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+}
+
+.stripe {
+    background-color: #df5047;
+    height: 107px;
+    position: relative;
+}
+.stripe:before {
+    content: "";
+    background-color: #df5047;
+    position: absolute;
+    height: 100%;
+    width: 4000px;
+    left: -2000px;
+    z-index: -1;
+}
+
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li {
+    list-style: none;
+    margin-right: 12px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    padding-left: 10px;
+    padding-right: 10px;
+    letter-spacing: 2px;
+    transition: 1s;
+}
+
+.nav-links li a:hover {
+    background-color: #ff7d74;
+}
+
+/* portal login */
+
+.linje {
+    width: 2px;
+    height: 45px;
+    background-color: white;
+}
+.portal {
+    display: flex;
+    align-items: center;
+}
+
+.portal h4 {
+    margin-left: 50px;
+    padding: 10px;
+    border: white solid 1px;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+
+.portal h4:hover {
+    background-color: #ff7d74;
+}
+
+.portal a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+}
+
+/* NAVIGATION MEDIA QUERIES */
+
+@media only screen and (max-width: 910px) {
+    .stripe {
+        display: none;
+    }
+
+    .nav-links {
+        position: absolute;
+        right: 0px;
+        height: 92vh;
+        top: 10vh;
+        background-color: #df5047;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+    .nav-links li {
+        opacity: 0;
+
+        height: 10%;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        letter-spacing: 2px;
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+}
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1 {
+    transform: rotate(-45deg) translate(-7px, 6px);
+}
+.toggle .line2 {
+    opacity: 0;
+}
+.toggle .line3 {
+    transform: rotate(45deg) translate(-7px, -6px);
+}
