@@ -1,4 +1,4 @@
-<body>
+<div>
     <?php
 
     include('header.php');
@@ -39,20 +39,22 @@
         }
     } else {
     ?>
-        <section class="site-wrapper">
+        <section class="site-wrapper login">
 
             <form class="loginform" method="post" name="login">
                 <h1>Login</h1>
-                <input type="text" name="username" placeholder="Username" autofocus="true" />
-                <input type="password" name="password" placeholder="Password" />
+                <input type="text" name="username" placeholder="Brugernavn" autofocus="true" />
+                <input type="password" name="password" placeholder="Kodeord" />
                 <input type="submit" value="Login" name="submit" />
             </form>
+
+
+
 
         </section>
 
     <?php
     }
+    include('footer.php');
     ?>
-</body>
-
-</html>
+</div>

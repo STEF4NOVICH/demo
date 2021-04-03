@@ -1,3 +1,18 @@
-body {
-    background-color: black;
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 50vh;
+    color: #df5047;
+}
+
+.login form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login form input {
+    padding: 5px;
+    margin-top: 10px;
+    border-color: #df5047;
 }
