@@ -87,9 +87,8 @@ nav {
 }
 
 #velkommen {
-   background:  #ff7d74;
+    background: #ff7d74;
 }
-
 
 .nav-links li a:hover {
     background-color: #ff7d74;
@@ -194,40 +193,6 @@ nav {
 }
 .toggle .line3 {
     transform: rotate(45deg) translate(-7px, -6px);
-}
-
-/* FORSIDE */
-
-.forside h2 {
-    margin-top: 50px;
-}
-
-.forside p {
-    margin-top: 22px;
-}
-
-.billeder {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 25px;
-}
-
-.billeder img {
-    max-width: 400px;
-    margin: 25px;
-}
-
-@media only screen and (max-width: 910px) {
-    .billeder {
-        flex-direction: column;
-    }
-
-    .billeder img {
-        max-width: 350px;
-        margin-top: 15px;
-        margin: 15px;
-    }
 }
 
 /* FOOTER */
