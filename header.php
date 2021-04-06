@@ -38,7 +38,3 @@
             </div>
         </nav>
     </header>
-    <script src="navigation.js"></script>
-</body>
-
-</html>

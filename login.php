@@ -1,9 +1,11 @@
 <head>
     <link rel="stylesheet" href="login.css">
 </head>
-
 <div>
     <?php
+
+    /*  create a PHP file login.php  This file code contains a form that allows users to enter username and
+password. */
 
     include('header.php');
 

@@ -29,3 +29,11 @@
         </div>
     </div>
 </footer>
+
+<script src="navigation.js"></script>
+
+</body>
+
+<script src="navigation.js"></script>
+
+</html>
