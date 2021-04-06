@@ -5,7 +5,7 @@
 <div>
     <?php
 
-    include('portal-login/header.php');
+    include('header.php');
 
     require('db.php');
     session_start();
@@ -51,6 +51,9 @@
                 <input type="password" name="password" placeholder="Kodeord" />
                 <input type="submit" value="Login" name="submit" />
             </form>
+
+
+
 
         </section>
 
