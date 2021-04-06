@@ -207,6 +207,11 @@ footer h2 {
     margin-bottom: 9px;
 }
 
+.vi-tilbyder ul li a {
+    text-decoration: none;
+    color: white;
+}
+
 .footerclass {
     display: flex;
     justify-content: space-between;
