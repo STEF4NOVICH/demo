@@ -86,6 +86,11 @@ nav {
     transition: 1s;
 }
 
+#velkommen {
+   background:  #ff7d74;
+}
+
+
 .nav-links li a:hover {
     background-color: #ff7d74;
 }
