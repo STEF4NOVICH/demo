@@ -86,10 +86,6 @@ nav {
     transition: 1s;
 }
 
-#velkommen {
-    background: #ff7d74;
-}
-
 .nav-links li a:hover {
     background-color: #ff7d74;
 }
@@ -218,24 +214,6 @@ footer h2 {
 
 .footerclass > div {
     margin: 10px;
-}
-
-.vi-tilbyder {
-    display: flex;
-    flex-direction: column;
-}
-
-.vi-tilbyder ul {
-    margin-left: 25px;
-}
-
-.vi-tilbyder ul li {
-    list-style: circle;
-}
-
-.vi-tilbyder ul li a {
-    text-decoration: none;
-    color: white;
 }
 
 @media only screen and (max-width: 910px) {

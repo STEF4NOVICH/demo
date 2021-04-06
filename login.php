@@ -1,3 +1,7 @@
+<head>
+    <link rel="stylesheet" href="login.css">
+</head>
+
 <div>
     <?php
 

@@ -1,3 +1,7 @@
+<head>
+    <link rel="stylesheet" href="forside.css">
+</head>
+
 <?php
 
 include('header.php');
