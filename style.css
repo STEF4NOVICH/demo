@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+.overskrift {
+    font-size: 40px;
+}
+
 img {
     width: 100%;
 }

@@ -25,9 +25,9 @@
         <nav>
             <ul class="nav-links">
                 <div class="stripe"></div>
-                <li><a id="velkommen" href="index.php">Velkommen</a></li>
+                <li><a id="Velkommen" href="index.php">Velkommen</a></li>
                 <li><a id="Vi tilbyder" href="vi-tilbyder.php">Vi tilbyder</a></li>
-                <li><a href="#">Om os</a></li>
+                <li><a id="Om os" href="om-os.php">Om os</a></li>
                 <li><a href="#">Kontakt</a></li>
                 <li><a href="#">Nyheder</a></li>
                 <li><a href="#">Diverse</a></li>

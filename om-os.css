@@ -1,0 +1,63 @@
+.om-os {
+    color: white;
+}
+
+.om-os-content {
+    position: relative;
+    display: flex;
+
+    z-index: 10;
+}
+
+.om-os-text {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px grey;
+    max-width: 720px;
+    margin-top: -30px;
+}
+
+.om-os-text p {
+    margin: 18px;
+}
+
+.beritprofilfoto {
+    margin: 20px;
+    position: relative;
+}
+
+.beritprofilfoto img {
+    border-radius: 10px;
+}
+
+/* KONTOR OG BASE */
+
+.kontor-og-base {
+    display: flex;
+    margin-top: 40px;
+    padding-top: 20px;
+}
+.kontor-og-base span {
+    margin-left: 20px;
+}
+.stripe-left p {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.stripe-left {
+    background-color: #ffb2ad;
+    height: auto;
+    max-width: 600px;
+    position: relative;
+    border-radius: 20px;
+}
+.stripe-left:before {
+    content: "";
+    background-color: #ffb2ad;
+    position: absolute;
+    height: 100%;
+    width: 2500px;
+    left: -2000px;
+    z-index: -1;
+}
