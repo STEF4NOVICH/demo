@@ -8,7 +8,7 @@ include('header.php');
 ?>
 
 <section class="site-wrapper">
-    ggg
+    gg
 </section>
 
 <?php
