@@ -35,6 +35,11 @@
     border-radius: 10px;
     color: white;
 }
+.personlig   i {
+    font-size: 50px;
+    color: white;
+}
+
 
 .personlig div {
     display: flex;

@@ -26,8 +26,8 @@ include('header.php');
     <div class="split">
         <div class="personlig">
             <div>
-                <span>X</span>
-                <h3>Personlig</h3>
+            <i class="fas fa-hand-holding-heart"></i> 
+                <h3>Personlig hjælp</h3>
 
 
             </div>
