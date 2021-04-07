@@ -26,9 +26,9 @@
             <ul class="nav-links">
                 <div class="nav-stripe"></div>
                 <li><a id="Velkommen" href="index.php">Velkommen</a></li>
-                <li><a id="Vi tilbyder" href="vi-tilbyder.php">Vi tilbyder</a></li>
-                <li><a id="Om os" href="om-os.php">Om os</a></li>
-                <li><a href="#">Kontakt</a></li>
+                <li><a id="Vi-tilbyder" href="vi-tilbyder.php">Vi tilbyder</a></li>
+                <li><a id="Om-os" href="om-os.php">Om os</a></li>
+                <li><a id="Kontakt" href="#">Kontakt</a></li>
             </ul>
             <div class="portal">
                 <div class="linje"></div>
