@@ -35,7 +35,7 @@ include('header.php');
     <div class="stripe-left">
         <div class="kontor-og-base">
             <h4>Kontorer og baser</h4>
-            <span>X</span>
+            <i class="fas fa-map-marker-alt"></i>
         </div>
         <p>Berit's hjemmepleje har base centralt placeret lige midt i Odense på Kochsgade 31, og er godkendt levereandør af personlig pleje, uddelegeret sygepleje, rehabilitering og praktisk hjælp i hele Odense kommune hele døgnet rundt.</p>
     </div>

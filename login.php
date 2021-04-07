@@ -50,9 +50,17 @@ password. */
             <form class="loginform" method="post" name="login">
                 <h1>Login</h1>
                 <p>Brugernavn</p>
-                <input type="text" name="username" placeholder="Indtast dit brugernavn" />
+                <div>
+                    <i class="far fa-user"></i>
+                    <input class="input-felt" type="text" name="username" placeholder="Indtast dit brugernavn" />
+                </div>
+                
                 <p>Password</p>
-                <input type="password" name="password" placeholder="Indtast dit password" />
+                <div>
+                    <i class="fas fa-unlock-alt"></i>
+                    <input class="input-felt" type="password" name="password" placeholder="Indtast dit password" />
+                </div>
+                
                 <input class="loginknap" type="submit" value="Login" name="submit" />
             </form>
 

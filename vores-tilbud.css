@@ -23,6 +23,7 @@
 
 .split {
     display: flex;
+    
 }
 
 .personlig {
@@ -34,10 +35,11 @@
     margin-right: 20px;
     border-radius: 10px;
     color: white;
+    align-items: center;
+    box-shadow: grey 0px 0px 8px;
 }
-.personlig   i {
+.split  i {
     font-size: 50px;
-    color: white;
 }
 
 
@@ -46,17 +48,19 @@
     flex-direction: column;
     align-items: center;
     margin: 20px;
+    text-align: center;
 }
 
 .praktisk-hjælp {
     margin-top: 50px;
     display: flex;
     background: #df5047;
-    padding: 50px;
     max-width: 50%;
     margin-left: 20px;
     border-radius: 10px;
     color: white;
+    align-items: center;
+    box-shadow: grey 0px 0px 8px;
 }
 
 .praktisk-hjælp div {
@@ -64,12 +68,15 @@
     flex-direction: column;
     align-items: center;
     margin: 20px;
+    text-align: center;
 }
 
 .praktisk-hjælp p {
     display: flex;
     align-items: center;
 }
+
+
 
 @media only screen and (max-width: 910px) {
     .split {
@@ -103,27 +110,33 @@
 /* FLEKSIBEL HJEMMEHJÆLP -- Arrangementer og fællesture -- Tilvalg ekstra ydelser
  */
 
-.gg {
+.tilbud {
     display: flex;
     margin-top: 50px;
     background: #df5047;
     color: white;
-    padding: 50px;
+    padding: 110px;
     border-radius: 10px;
-}
-
-.gg div {
-    display: flex;
-    justify-content: center;
     align-items: center;
+    box-shadow: grey 0px 0px 8px;
 }
 
-.gg p {
+.tilbud i {
+    font-size: 50px;
+}
+.tilbud div {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.tilbud p {
     margin-left: 50px;
 }
 
+
 @media only screen and (max-width: 910px) {
-    .gg p {
+    .tilbud p {
         margin-left: 10px;
     }
 }

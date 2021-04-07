@@ -57,12 +57,16 @@
     margin-top: 40px;
     padding-top: 20px;
 }
-.kontor-og-base span {
+.kontor-og-base i {
     margin-left: 20px;
+    font-size: 30px;
+}
+.kontor-og-base h4 {
+    font-size: 20px;
 }
 
 .stripe-left {
-    background-color: #ffb2ad;
+    background-color: #F1D6D4;
     height: auto;
     max-width: 600px;
     position: relative;
@@ -70,7 +74,7 @@
 }
 .stripe-left:before {
     content: "";
-    background-color: #ffb2ad;
+    background-color: #F1D6D4;
     position: absolute;
     height: 100%;
     width: 2500px;

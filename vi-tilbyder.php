@@ -26,10 +26,8 @@ include('header.php');
     <div class="split">
         <div class="personlig">
             <div>
-            <i class="fas fa-hand-holding-heart"></i> 
+                <i class="fas fa-hand-holding-heart"></i>
                 <h3>Personlig hjælp</h3>
-
-
             </div>
             <p>Vi hjælper dig med de nære
                 og personlige aktiviteter
@@ -41,7 +39,7 @@ include('header.php');
 
         <div class="praktisk-hjælp">
             <div>
-                <span>X</span>
+                <i class="fas fa-hand-sparkles"></i>
                 <h3>Praktisk hjælp</h3>
 
             </div>
@@ -52,9 +50,9 @@ include('header.php');
 
     </div>
 
-    <div class="gg">
+    <div class="tilbud">
         <div>
-            <span> </span>
+            <i class="fas fa-shopping-cart"></i>
             <h3>Fleksibel hjemmehjælp</h3>
         </div>
         <p>Ønsker du mere hjælp til personlig pleje, mere
@@ -62,9 +60,9 @@ include('header.php');
             måtte have.</p>
     </div>
 
-    <div class="gg">
+    <div class="tilbud">
         <div>
-            <span> </span>
+            <i class="far fa-map"></i>
             <h3>Arrangementer
                 og fællesture</h3>
         </div>
@@ -74,9 +72,9 @@ include('header.php');
             ud og hjem igen.</p>
     </div>
 
-    <div class="gg">
+    <div class="tilbud">
         <div>
-            <span> </span>
+            <i class="fas fa-user-plus"></i>
             <h3>Tilvalg
                 ekstra ydelser</h3>
         </div>

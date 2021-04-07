@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
     <title>Portal demo</title>
 </head>
 
 <body>
     <header class="site-wrapper">
         <div class="logo-burger">
-            <h4>Logo</h4>
+            <a href="index.php"><img src="billeder/beritlogo.svg" alt="" ></a>
             <div class="burger">
                 <div class="line1"></div>
                 <div class="line2"></div>

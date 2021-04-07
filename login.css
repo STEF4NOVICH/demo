@@ -24,12 +24,27 @@
     font-weight: 500;
 }
 
-.login form input {
-    border: 0px;
+.loginform div {
+    display: flex;
+    align-items: center;
+}
+
+.loginform i {
+ font-size: 20px;
+margin-top: -10px;
+}
+
+.loginform input {
+    border: none;
+    border-bottom: 2px solid #df5047 ;
     padding: 5px;
     margin-top: 10px;
     margin-bottom: 20px;
+    outline: none;
+    width: 100%;
 }
+
+
 
 .loginknap {
     background-color: #df5047;
