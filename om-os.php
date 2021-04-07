@@ -26,6 +26,7 @@ include('header.php');
         </div>
         <div class="beritprofilfoto">
             <img src="billeder/Beritprofilfote.jpg" alt="">
+            <figcaption>Berit B. Thomsen - Stifter</figcaption>
         </div>
     </div>
 

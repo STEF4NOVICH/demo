@@ -45,6 +45,21 @@ body {
     width: min(90%, 70.5rem);
 }
 
+.nav-stripe {
+    background-color: #df5047;
+    height: 107px;
+    position: relative;
+}
+.nav-stripe:before {
+    content: "";
+    background-color: #df5047;
+    position: absolute;
+    height: 100%;
+    width: 4000px;
+    left: -2000px;
+    z-index: -1;
+}
+
 .stripe {
     background-color: #df5047;
     height: 107px;
@@ -127,12 +142,13 @@ nav {
 /* NAVIGATION MEDIA QUERIES */
 
 @media only screen and (max-width: 910px) {
-    .stripe {
+    .nav-stripe {
         display: none;
     }
 
     .nav-links {
         position: absolute;
+        z-index: 100;
         right: 0px;
         height: 92vh;
         top: 10vh;
@@ -167,6 +183,10 @@ nav {
     .burger {
         display: block;
         cursor: pointer;
+    }
+
+    .portal {
+        display: none;
     }
 }
 

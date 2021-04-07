@@ -6,11 +6,52 @@
 }
 
 .login form {
+    box-shadow: grey 0px 0px 7px;
     display: flex;
     flex-direction: column;
+    padding: 40px;
+    width: 350px;
+}
+
+.login form h1 {
+    display: flex;
+    justify-content: center;
+    color: #df5047;
+    margin-bottom: 40px;
+}
+
+.login form p {
+    font-weight: 500;
 }
 
 .login form input {
+    border: 0px;
     padding: 5px;
     margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.loginknap {
+    background-color: #df5047;
+    color: white;
+    font-weight: 700;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* FORKET INDTASTNING */
+
+.forkert-indtastning {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #df5047;
+    min-height: 50vh;
+}
+
+.forkert-indtastning a {
+    text-decoration: none;
+    font-weight: 500;
 }

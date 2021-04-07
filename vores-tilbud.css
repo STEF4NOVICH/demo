@@ -1,0 +1,120 @@
+.vi-tilbyder {
+    color: white;
+}
+
+.vores-tilbud {
+    background: white;
+    margin-top: -30px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    z-index: 10;
+    border-radius: 10px;
+    box-shadow: grey 0px 0px 8px;
+}
+
+.vores-tilbud p {
+    padding: 30px;
+}
+
+.split {
+    display: flex;
+}
+
+.personlig {
+    margin-top: 50px;
+    display: flex;
+    background: #df5047;
+    padding: 50px;
+    max-width: 50%;
+    margin-right: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.personlig div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.praktisk-hjælp {
+    margin-top: 50px;
+    display: flex;
+    background: #df5047;
+    padding: 50px;
+    max-width: 50%;
+    margin-left: 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+.praktisk-hjælp div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.praktisk-hjælp p {
+    display: flex;
+    align-items: center;
+}
+
+@media only screen and (max-width: 910px) {
+    .split {
+        flex-direction: column;
+    }
+
+    .personlig {
+        padding: 50px;
+        max-width: 100%;
+        margin-right: 0px;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .praktisk-hjælp {
+        padding: 50px;
+        max-width: 100%;
+        margin-left: 0px;
+        border-radius: 10px;
+        margin-top: 20px;
+    }
+    .personlig p {
+        margin-left: 10px;
+    }
+
+    .praktisk-hjælp p {
+        margin-left: 10px;
+    }
+}
+
+/* FLEKSIBEL HJEMMEHJÆLP -- Arrangementer og fællesture -- Tilvalg ekstra ydelser
+ */
+
+.gg {
+    display: flex;
+    margin-top: 50px;
+    background: #df5047;
+    color: white;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.gg div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gg p {
+    margin-left: 50px;
+}
+
+@media only screen and (max-width: 910px) {
+    .gg p {
+        margin-left: 10px;
+    }
+}

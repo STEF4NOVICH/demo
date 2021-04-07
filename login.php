@@ -38,9 +38,9 @@ password. */
 
             header("Location: dashboard.php");
         } else {
-            echo "<div class='form'>
-                  <h3>Incorrect Username/password.</h3><br/>
-                  <p class='link'>Click here to <a href='login.php'>Login</a> again.</p>
+            echo "<div class='forkert-indtastning'>
+                  <h3>Ups, du tastede forkert. Prøv igen</h3><br/>
+                  <p class='link'>Klik <a href='login.php'>HER</a> for at prøve igen.</p>
                   </div>";
         }
     } else {
@@ -49,9 +49,11 @@ password. */
 
             <form class="loginform" method="post" name="login">
                 <h1>Login</h1>
-                <input type="text" name="username" placeholder="Brugernavn" autofocus="true" />
-                <input type="password" name="password" placeholder="Kodeord" />
-                <input type="submit" value="Login" name="submit" />
+                <p>Brugernavn</p>
+                <input type="text" name="username" placeholder="Indtast dit brugernavn" />
+                <p>Password</p>
+                <input type="password" name="password" placeholder="Indtast dit password" />
+                <input class="loginknap" type="submit" value="Login" name="submit" />
             </form>
 
 
