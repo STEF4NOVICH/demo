@@ -1,0 +1,136 @@
+#kontakt {
+    background: #ff7d74;
+}
+
+
+.kontakt-os h1 {
+   color: white;
+}
+
+.top-content {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 2em;
+    margin-top: -25px;
+}
+
+.top-container-left {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px grey;
+    background: white;
+    z-index: 10;
+    padding: 50px;
+}
+
+.top-container-left h2 {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.phone-cta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-size: 20px;
+}
+
+.top-container-right {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px grey;
+    background: white;
+    z-index: 10;
+}
+
+.top-container-right img {
+    padding: 3em 4em 1em 4em;
+}
+
+.top-container-right h3 {
+    font-weight: 600;
+    text-align: center;
+}
+
+.stilling {
+    display: flex;
+   align-items: center;
+   padding-left: 4em;
+   font-size: 17px;
+}
+
+.stilling p {
+    padding-left: 15px;
+    color: #DF5047;
+}
+
+.mail {
+    display: flex;
+    align-items: center;
+    padding-left: 4em;
+    font-size: 17px;
+}
+
+.mail p {
+    padding-left: 15px;
+    color: #DF5047;
+}
+
+
+.aarhus-container h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.r1 {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin: 20px 40px;
+}
+
+.profile { 
+    flex-basis: 270px;
+}
+
+.profile .profile-img {
+    height: 215px;
+    width: 215px;
+    border-radius: 50%;
+}
+
+.user-name {
+    margin-top: .5em;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.profile h5 {
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    color: #DF5047;
+    text-align: center;
+
+}
+.profile p {
+    font-size: 16px;
+    text-align: justify;
+    color: #DF5047;
+}
+
+
+.r2 {
+    display: flex;
+    justify-content: flex-end;
+    margin: 20px 40px;
+}
+.profiles1 {
+   margin-left: 200px;
+   margin-right: 400px;
+}
+
+
