@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="vores-tilbud.css">
+    <link rel="stylesheet" href="css/vi-tilbyder.css">
 </head>
 
 <?php

@@ -31,9 +31,10 @@
 </footer>
 
 <script src="navigation.js"></script>
+<script src="image-slider.js"></script>
 
 </body>
 
-<script src="navigation.js"></script>
+
 
 </html>

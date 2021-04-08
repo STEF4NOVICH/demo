@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body {
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
 .overskrift {
     font-size: 40px;
 }
@@ -12,21 +15,19 @@ img {
     width: 100%;
 }
 
-body {
-    font-family: "Poppins", sans-serif;
-    overflow-x: hidden;
+.logo {
+    max-width: 250px;
 }
-
 /*------baggrundsfigurer----*/
 .cirkel {
     height: 100px;
     width: 100px;
     position: absolute;
     border-radius: 50%;
-    top: 200px;
+    top: 500px;
     left: 50px;
-    background: #F1D7D5;
-    z-index: -10;
+    background: #df5047;
+    z-index: 10;
 }
 
 /* LOGO + BURGERMENU */
@@ -38,7 +39,7 @@ body {
     min-height: 10vh;
 }
 
- .logo-burger a img {
+.logo-burger a img {
     width: 130%;
 }
 .burger {

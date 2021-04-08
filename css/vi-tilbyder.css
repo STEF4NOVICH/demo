@@ -23,7 +23,6 @@
 
 .split {
     display: flex;
-    
 }
 
 .personlig {
@@ -38,10 +37,9 @@
     align-items: center;
     box-shadow: grey 0px 0px 8px;
 }
-.split  i {
+.split i {
     font-size: 50px;
 }
-
 
 .personlig div {
     display: flex;
@@ -75,8 +73,6 @@
     display: flex;
     align-items: center;
 }
-
-
 
 @media only screen and (max-width: 910px) {
     .split {
@@ -133,7 +129,6 @@
 .tilbud p {
     margin-left: 50px;
 }
-
 
 @media only screen and (max-width: 910px) {
     .tilbud p {
