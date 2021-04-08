@@ -58,32 +58,6 @@
     height: 500px;
 }
 
-/* CSS for manual slide */
-
-.navigation-manual {
-    position: absolute;
-    width: 800px;
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
-}
-
-.manual-btn {
-    border: 2px solid #df5047;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-
-.manual-btn:not(:last-child) {
-    margin-right: 40px;
-}
-
-.manual-btn:hover {
-    background: #df5047;
-}
-
 #radio1:checked ~ .first {
     margin-left: 0;
 }
@@ -92,42 +66,6 @@
 }
 #radio3:checked ~ .first {
     margin-left: -40%;
-}
-
-/* CSS for automatisk navigation */
-
-.navigation-auto {
-    position: absolute;
-    display: flex;
-    width: 800px;
-    justify-content: center;
-    margin-top: 460px;
-}
-
-.navigation-auto div {
-    border: 2px solid #df5047;
-    padding: 5px;
-    border-radius: 10px;
-    transition: 1s;
-}
-
-.navigation-auto div:not(:last-child) {
-    margin-right: 40px;
-}
-
-#radio1:checked ~ .navigation-auto .auto-btn1 {
-    background: #df5047;
-}
-#radio2:checked ~ .navigation-auto .auto-btn2 {
-    background: #df5047;
-}
-
-#radio3:checked ~ .navigation-auto .auto-btn3 {
-    background: #df5047;
-}
-
-#radio4:checked ~ .navigation-auto .auto-btn4 {
-    background: #df5047;
 }
 
 /* image slider slut */

@@ -7,10 +7,9 @@
 include('header.php');
 ?>
 
-<div class="cirkel"></div>
-<div></div>
-<div></div>
-<div></div>
+<div class="cirkel cirkel1"></div>
+<div class="cirkel cirkel2"></div>
+
 
 
 <section class="site-wrapper">
@@ -42,6 +41,8 @@ include('header.php');
                 <input type="radio" name="radio-btn" id="radio3">
                 <input type="radio" name="radio-btn" id="radio4">
                 <!--radio buttons end-->
+
+
                 <!--slide images start-->
                 <div class="slide first">
                     <img src="billeder/aged care.jpg" alt="">
@@ -52,29 +53,12 @@ include('header.php');
                 <div class="slide">
                     <img src="billeder/aged care2.jpg" alt="">
                 </div>
-
                 <!--slide images end-->
-                <!--automatic navigation start-->
-                <div class="navigation-auto">
-                    <div class="auto-btn1"></div>
-                    <div class="auto-btn2"></div>
-                    <div class="auto-btn3"></div>
-
-                </div>
-                <!--automatic navigation end-->
             </div>
-            <!--manual navigation start-->
-            <div class="navigation-manual">
-                <label for="radio1" class="manual-btn"></label>
-                <label for="radio2" class="manual-btn"></label>
-                <label for="radio3" class="manual-btn"></label>
-
-            </div>
-            <!--manual navigation end-->
         </div>
-        <!--image slider end-->
-    </div>
 
+    </div>
+    <!--image slider end-->
     <div class="split">
         <div class="content-box1">
             <div class="box-items">

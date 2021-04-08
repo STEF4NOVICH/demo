@@ -20,16 +20,33 @@ img {
 }
 /*------baggrundsfigurer----*/
 .cirkel {
-    height: 100px;
-    width: 100px;
+    height: 300px;
+    width: 300px;
     position: absolute;
     border-radius: 50%;
-    top: 500px;
-    left: 50px;
-    background: #df5047;
-    z-index: 10;
+    background: #ff7d74;
+    z-index: -10;
 }
 
+.cirkel1 {
+    top: 400px;
+    left: 14%;
+}
+
+.cirkel2 {
+    top: 800px;
+    right: 15%;
+}
+
+@media only screen and (max-width: 910px) {
+    .cirkel {
+        display: none;
+    }
+
+    .figur {
+        display: none;
+    }
+}
 /* LOGO + BURGERMENU */
 
 .logo-burger {
