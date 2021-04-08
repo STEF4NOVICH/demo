@@ -1,125 +1,285 @@
-.kontakt-os h1 {
+.kontakt {
     color: white;
 }
-
-.top-content {
-    display: grid;
-    grid-template-columns: repeat(2, auto);
-    grid-gap: 2em;
-    margin-top: -25px;
+.kontakt h1 {
+    text-align: left;
 }
 
-.top-container-left {
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0px 0px 7px grey;
-    background: white;
-    z-index: 10;
-    padding: 50px;
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-.top-container-left h2 {
-    font-size: 30px;
-    font-weight: 400;
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+section{
     text-align: center;
+    margin-inline: auto;
+    width: min(90%, 70.5rem);
+}
+
+
+.heading1 {
+    font-weight: 500;
+}
+
+.intro-container ul li {
+    background: white;
+    padding: 2em;
+    border-radius: .3em;
+    margin-bottom: 1em;
+    box-shadow: 0px 0px 7px #00000029;
 }
 
 .phone-cta {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 15px;
+    border: 2px solid #DF5047 ;
+    border-radius: 1.5em;
+    padding: 10px 5px;
+    margin: 10px 60px;
+    cursor: pointer;
+}
+
+.phone-cta a {
+    color: black;
+    font-size: 18px;
+}
+
+.phone-cta:hover {
+    background: #DF5047;
+    color: white;
+}
+
+.phone-cta a:hover {
+    color: white;
+    font-weight: 500;
+}
+
+
+.img-container {
+    height: 340px;
+    display: grid;
+    place-content: center;
+    margin: 0 auto;
+}
+
+.one {
+    width: 250px;
+}
+
+.name {
     font-size: 20px;
-}
-
-.top-container-right {
-    border: none;
-    border-radius: 10px;
-    box-shadow: 0px 0px 7px grey;
-    background: white;
-    z-index: 10;
-}
-
-.top-container-right img {
-    padding: 3em 4em 1em 4em;
-}
-
-.top-container-right h3 {
-    font-weight: 600;
-    text-align: center;
+    font-weight: bold;
 }
 
 .stilling {
-    display: flex;
-    align-items: center;
-    padding-left: 4em;
-    font-size: 17px;
-}
-
-.stilling p {
-    padding-left: 15px;
-    color: #df5047;
+    color:#DF5047 ;
+    letter-spacing: 2px;
+    font-weight: 600;
 }
 
 .mail {
+    color:#DF5047 ;
+}
+
+@media only screen and (min-width: 800px) {
+
+    .transition {
+        margin-top: -1.5em;
+        z-index: 5;
+    }
+
+    .intro-container ul {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        grid-gap: 1em
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .phone-cta {
+        margin: 10px 155px;
+    }
+
+    .aarhus-container ul {
+        display: grid;
+        grid-template-columns: 33% 33% 33% ; 
+        grid-gap: 1em
+    }
+}
+
+@media only screen and (min-width: 1390px) {
+    .phone-cta {
+        margin: 10px 245px;
+    }
+    
+}
+
+/*-------------------århus----------------*/
+.heading2 {
+    margin: 2em 0;
+}
+
+.aarhus-container ul li {
+    background: white;
+    padding: 2em;
+    border-radius: .3em;
+    margin-bottom: 1em;
+    box-shadow: 0px 0px 7px #00000029;
+}
+
+.two {
+    width: 230px;
+}
+
+@media only screen and (min-width: 800px) {
+    .aarhus-container ul {
+        display: grid;
+        grid-template-columns: 50% auto;
+        grid-gap: 1em
+    }
+    .aarhus .img-container {
+        height: 240px;
+    }
+
+    .two {
+        width: 180px;
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .aarhus-container ul {
+        display: grid;
+        grid-template-columns: 33% 33% 33% ; 
+        grid-gap: 1em
+    }
+    .name {
+        font-weight: 600;
+    }
+    .stilling {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1390px) {
+        .aarhus-container ul {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%; 
+        grid-gap: 1em
+    }
+
+    .aarhus .img-container {
+        height: 180px;
+    }
+
+    .two {
+        width: 150px;
+    }
+    .name {
+        font-size: 17px;
+        margin-top: 1em;
+    }
+
+    .stilling {
+        font-size: 15px;
+    }
+}
+
+/*-------------------Horsens og Hedensted----------------*/
+
+.heading3 {
+    margin: 2em 0;
+}
+
+.hh-container ul li {
+    background: white;
+    padding: 2em;
+    border-radius: .3em;
+    margin-bottom: 1em;
+    box-shadow: 0px 0px 7px #00000029;
+}
+
+@media only screen and (min-width: 800px) {
+    .hh-container ul {
+        display: grid;
+        grid-template-columns: 50% auto;
+        grid-gap: 1em
+    }
+    .hh .img-container {
+        height: 240px;
+    }
+
+    .two {
+        width: 180px;
+    }
+}
+
+@media only screen and (min-width: 1050px) {
+    .hh-container ul {
+        display: grid;
+        grid-template-columns: 33% 33% 33% ; 
+        grid-gap: 1em
+    }
+    .name {
+        font-weight: 600;
+    }
+    .stilling {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 1390px) {
+        .hh-container ul {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%; 
+        grid-gap: 1em
+    }
+
+    .horsens .img-container {
+        height: 180px;
+    }
+}
+
+/* KONTOR OG BASE */
+
+.kontor-og-base {
     display: flex;
     align-items: center;
-    padding-left: 4em;
-    font-size: 17px;
-}
-
-.mail p {
-    padding-left: 15px;
-    color: #df5047;
-}
-
-.aarhus-container h1 {
+    justify-content: space-evenly;
+    margin-top: 40px;
+    padding: 6em;
     text-align: center;
-    margin-top: 20px;
+}
+.kontor-og-base i {
+    margin-left: 20px;
+    font-size: 80px;
 }
 
-.r1 {
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-    margin: 20px 40px;
-}
-
-.profile {
-    flex-basis: 270px;
-}
-
-.profile .profile-img {
-    height: 215px;
-    width: 215px;
-    border-radius: 50%;
-}
-
-.user-name {
-    margin-top: 0.5em;
+.adr-title {
+    font-weight: bold;
     font-size: 20px;
-    text-align: center;
 }
 
-.profile h5 {
-    font-size: 16px;
-    font-weight: 600;
-    letter-spacing: 0.5px;
-    color: #df5047;
-    text-align: center;
+.stripe-left {
+    background-color: #f1d6d4;
+    height: auto;
+    max-width: 900px;
+    position: relative;
+    border-radius: 20px;
+    padding-left: 50px;
 }
-.profile p {
-    font-size: 16px;
-    text-align: justify;
-    color: #df5047;
-}
-
-.r2 {
-    display: flex;
-    justify-content: flex-end;
-    margin: 20px 40px;
-}
-.profiles1 {
-    margin-left: 200px;
-    margin-right: 400px;
+.stripe-left:before {
+    content: "";
+    background-color: #f1d6d4;
+    position: absolute;
+    height: 100%;
+    width: 2500px;
+    left: -2000px;
+    z-index: -1;
 }
