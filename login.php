@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="css/login.css">
 </head>
 <div>
     <?php
@@ -54,13 +54,13 @@ password. */
                     <i class="far fa-user"></i>
                     <input class="input-felt" type="text" name="username" placeholder="Indtast dit brugernavn" />
                 </div>
-                
+
                 <p>Password</p>
                 <div>
                     <i class="fas fa-unlock-alt"></i>
                     <input class="input-felt" type="password" name="password" placeholder="Indtast dit password" />
                 </div>
-                
+
                 <input class="loginknap" type="submit" value="Login" name="submit" />
             </form>
 

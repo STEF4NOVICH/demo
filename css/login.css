@@ -11,6 +11,7 @@
     flex-direction: column;
     padding: 40px;
     width: 350px;
+    margin-top: 75px;
 }
 
 .login form h1 {
@@ -30,21 +31,19 @@
 }
 
 .loginform i {
- font-size: 20px;
-margin-top: -10px;
+    font-size: 20px;
+    margin-top: -10px;
 }
 
 .loginform input {
     border: none;
-    border-bottom: 2px solid #df5047 ;
+    border-bottom: 2px solid #df5047;
     padding: 5px;
     margin-top: 10px;
     margin-bottom: 20px;
     outline: none;
     width: 100%;
 }
-
-
 
 .loginknap {
     background-color: #df5047;

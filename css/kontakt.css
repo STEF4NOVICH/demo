@@ -1,10 +1,5 @@
-#kontakt {
-    background: #ff7d74;
-}
-
-
 .kontakt-os h1 {
-   color: white;
+    color: white;
 }
 
 .top-content {
@@ -56,14 +51,14 @@
 
 .stilling {
     display: flex;
-   align-items: center;
-   padding-left: 4em;
-   font-size: 17px;
+    align-items: center;
+    padding-left: 4em;
+    font-size: 17px;
 }
 
 .stilling p {
     padding-left: 15px;
-    color: #DF5047;
+    color: #df5047;
 }
 
 .mail {
@@ -75,9 +70,8 @@
 
 .mail p {
     padding-left: 15px;
-    color: #DF5047;
+    color: #df5047;
 }
-
 
 .aarhus-container h1 {
     text-align: center;
@@ -91,7 +85,7 @@
     margin: 20px 40px;
 }
 
-.profile { 
+.profile {
     flex-basis: 270px;
 }
 
@@ -102,26 +96,23 @@
 }
 
 .user-name {
-    margin-top: .5em;
+    margin-top: 0.5em;
     font-size: 20px;
     text-align: center;
 }
 
-
 .profile h5 {
     font-size: 16px;
     font-weight: 600;
-    letter-spacing: .5px;
-    color: #DF5047;
+    letter-spacing: 0.5px;
+    color: #df5047;
     text-align: center;
-
 }
 .profile p {
     font-size: 16px;
     text-align: justify;
-    color: #DF5047;
+    color: #df5047;
 }
-
 
 .r2 {
     display: flex;
@@ -129,8 +120,6 @@
     margin: 20px 40px;
 }
 .profiles1 {
-   margin-left: 200px;
-   margin-right: 400px;
+    margin-left: 200px;
+    margin-right: 400px;
 }
-
-

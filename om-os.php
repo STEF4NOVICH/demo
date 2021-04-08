@@ -1,5 +1,5 @@
 <head>
-    <link rel="stylesheet" href="om-os.css">
+    <link rel="stylesheet" href="css/om-os.css">
 </head>
 
 <?php

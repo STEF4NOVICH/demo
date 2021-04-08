@@ -1,7 +1,3 @@
-#velkommen {
-    background: #ff7d74;
-}
-
 .kontakt-os {
     color: white;
 }
@@ -33,7 +29,7 @@
 
 .slider {
     max-width: 800px;
-    max-height: 500px;
+    height: 500px;
     border-radius: 10px;
     overflow: hidden;
 }
