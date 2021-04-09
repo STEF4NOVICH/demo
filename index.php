@@ -9,6 +9,7 @@ include('header.php');
 
 <div class="cirkel cirkel1"></div>
 <div class="cirkel cirkel2"></div>
+<div class="cirkel cirkel3"></div>
 
 
 
@@ -20,12 +21,13 @@ include('header.php');
     </div>
 
     <div class="upper-text-box">
-        <p>Her fremmer vi, at du fortsat kan leve livet meningsfuldt
-        </p>
-        <p>Vi leverer med stolthed : <br>
-            Privat personlig pleje og praktisk hjælp
-        </p>
-        <p>Du betyder alt for os, og vi vil med et smil arbejde hårdt for at du har det så godt som muligt !</p>
+        <p>Her fremmer vi, at du fortsat kan leve livet meningsfuldt.<br><br>
+
+            Vi leverer med stolthed : <br>
+            Privat personlig pleje og praktisk hjælp.<br> <br>
+
+            Du betyder alt for os, og vi vil med et smil arbejde 
+            hårdt for at du har det så godt som muligt!</p>
     </div>
 
 

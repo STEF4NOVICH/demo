@@ -6,12 +6,14 @@
 }
 
 .login form {
-    box-shadow: grey 0px 0px 7px;
+    border-radius: 0.5em;
+    box-shadow: 1px 1px 8px #00000029;
     display: flex;
     flex-direction: column;
     padding: 40px;
     width: 350px;
     margin-top: 75px;
+    height: 430px;
 }
 
 .login form h1 {
@@ -19,6 +21,8 @@
     justify-content: center;
     color: #df5047;
     margin-bottom: 40px;
+    font-size: 35px;
+    font-weight: 600;
 }
 
 .login form p {
@@ -37,7 +41,7 @@
 
 .loginform input {
     border: none;
-    border-bottom: 2px solid #df5047;
+    border-bottom: 3px solid #df5047;
     padding: 5px;
     margin-top: 10px;
     margin-bottom: 20px;

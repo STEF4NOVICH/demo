@@ -9,14 +9,15 @@
     text-align: center;
     z-index: 10;
     background: white;
-    border-radius: 10px;
-    box-shadow: 0px 0px 7px grey;
-    margin-top: -30px;
+    border-radius: 0.5em;
+    box-shadow: 1px 1px 8px #00000029;
+    margin-top: -1.2em;
     margin-bottom: 20px;
 }
 
 .upper-text-box p {
-    padding: 20px;
+    font-size: 18px;
+    padding: 30px 200px;
 }
 
 /* IMAGE SLIDER */
@@ -79,8 +80,9 @@
     width: 100%;
     margin-right: 20px;
     margin-top: 40px;
-    border-radius: 10px;
-    padding: 40px;
+    border-radius: 0.3em;
+    box-shadow: 1px 1px 8px #00000029;
+    padding: 80px 40px;
 }
 
 .content-box2 {
@@ -91,8 +93,9 @@
     width: 100%;
     margin-left: 20px;
     margin-top: 40px;
-    border-radius: 10px;
-    padding: 40px;
+    border-radius: 0.3em;
+    box-shadow: 1px 1px 8px #00000029;
+    padding: 80px 50px;
 }
 
 .box-items {
@@ -104,8 +107,13 @@
     padding: 10px;
 }
 
+
 .box-items i {
-    font-size: 50px;
+    font-size: 70px;
+}
+
+.box-items h4 {
+    font-size: 18px;
 }
 
 @media only screen and (max-width: 910px) {

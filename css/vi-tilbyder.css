@@ -4,23 +4,26 @@
 
 .vores-tilbud {
     background: white;
-    margin-top: -30px;
     position: relative;
     display: flex;
     flex-direction: column;
     z-index: 10;
-    border-radius: 10px;
-    box-shadow: grey 0px 0px 8px;
+    border-radius: 0.5em;
+    box-shadow: 1px 1px 8px #00000029;
+    margin-top: -1.2em;
 }
 
 .vores-tilbud p {
-    padding: 30px;
+    padding: 50px;
 }
 
 /* SECTION */
 
 .split {
-    display: flex;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 1em;
+    
 }
 
 .content-box1 {
@@ -29,11 +32,12 @@
     align-items: center;
     background: #df5047;
     color: white;
-    width: 100%;
     margin-right: 20px;
     margin-top: 40px;
-    border-radius: 10px;
-    padding: 40px;
+    border-radius: 0.5em;
+    box-shadow: 1px 1px 8px #00000029;
+    padding: 60px 20px;
+    height: 280px;
 }
 
 .content-box1 p {
@@ -46,11 +50,11 @@
     align-items: center;
     background: #df5047;
     color: white;
-    width: 100%;
-    margin-left: 20px;
     margin-top: 40px;
-    border-radius: 10px;
+    border-radius: 0.5em;
+    box-shadow: 1px 1px 8px #00000029;
     padding: 40px;
+    height: 280px;
 }
 
 .content-box2 p {
@@ -67,8 +71,11 @@
 }
 
 .box-items i {
-    font-size: 50px;
-    width: 200px;
+    font-size: 70px;
+}
+
+.box-items h4 {
+    font-size: 25px;
 }
 
 @media only screen and (max-width: 910px) {

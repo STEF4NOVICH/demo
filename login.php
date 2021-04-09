@@ -45,6 +45,12 @@ password. */
         }
     } else {
     ?>
+
+
+<div class="cirkel cirkel7"></div>
+<div class="cirkel cirkel8"></div>
+<div class="cirkel cirkel9"></div>
+
         <section class="site-wrapper login">
 
             <form class="loginform" method="post" name="login">

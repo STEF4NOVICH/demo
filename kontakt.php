@@ -7,6 +7,13 @@
 include('header.php');
 ?>
 
+<div class="cirkel cirkel1"></div>
+<div class="cirkel cirkel2"></div>
+<div class="cirkel cirkel3"></div>
+<div class="cirkel cirkel6"></div>
+
+
+
 <section class="site-wrapper">
     <div class="stripe">
         <div class="kontakt">
