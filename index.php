@@ -26,7 +26,7 @@ include('header.php');
             Vi leverer med stolthed : <br>
             Privat personlig pleje og praktisk hjælp.<br> <br>
 
-            Du betyder alt for os, og vi vil med et smil arbejde 
+            Du betyder alt for os, og vi vil med et smil arbejde
             hårdt for at du har det så godt som muligt!</p>
     </div>
 
@@ -41,7 +41,6 @@ include('header.php');
                 <input type="radio" name="radio-btn" id="radio1">
                 <input type="radio" name="radio-btn" id="radio2">
                 <input type="radio" name="radio-btn" id="radio3">
-                <input type="radio" name="radio-btn" id="radio4">
                 <!--radio buttons end-->
 
 
@@ -61,6 +60,7 @@ include('header.php');
 
     </div>
     <!--image slider end-->
+
     <div class="split">
         <div class="content-box1">
             <div class="box-items">
