@@ -11,9 +11,10 @@
 .om-os-text {
     background: white;
     border-radius: 10px;
-    box-shadow: 0px 0px 7px grey;
+    box-shadow: 1px 1px 8px #00000029;
     max-width: 720px;
-    margin-top: -30px;
+    margin-top: -1.2em;
+    padding: 50px;
 }
 
 .om-os-text p {
@@ -31,12 +32,9 @@
 }
 
 @media only screen and (max-width: 910px) {
-    .om-os {
-        color: #df5047;
-    }
     .om-os-content {
         flex-direction: column;
-        margin-top: 60px;
+        margin-top: 0px;
     }
 
     .beritprofilfoto img {

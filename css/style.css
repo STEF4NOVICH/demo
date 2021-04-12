@@ -22,7 +22,7 @@ img {
 .cirkel {
     position: absolute;
     border-radius: 50%;
-    background: #F1D7D5;
+    background: #f1d7d5;
     z-index: -10;
 }
 
@@ -127,13 +127,13 @@ img {
 }
 
 .nav-stripe {
-    background-color: #df5047;
+    background-color: #ff7d74;
     height: 107px;
     position: relative;
 }
 .nav-stripe:before {
     content: "";
-    background-color: #df5047;
+    background-color: #ff7d74;
     position: absolute;
     height: 100%;
     width: 4000px;
@@ -187,7 +187,7 @@ nav {
 }
 
 .nav-links li a:hover {
-    background-color: #ff7d74;
+    background-color: #df5047;
 }
 
 /* portal login */
@@ -211,7 +211,7 @@ nav {
 }
 
 .portal h4:hover {
-    background-color: #ff7d74;
+    background-color: #df5047;
 }
 
 .portal a {

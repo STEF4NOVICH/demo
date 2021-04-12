@@ -133,4 +133,8 @@
         padding: 40px;
         margin-left: 0px;
     }
+
+    .upper-text-box p {
+        padding: 10px 20px;
+    }
 }

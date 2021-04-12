@@ -14,7 +14,7 @@
 }
 
 .vores-tilbud p {
-    padding: 50px;
+    padding: 35px;
 }
 
 /* SECTION */
@@ -23,7 +23,6 @@
     display: grid;
     grid-template-columns: 50% 50%;
     grid-gap: 1em;
-    
 }
 
 .content-box1 {
