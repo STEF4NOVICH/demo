@@ -136,18 +136,25 @@ header {
     color: var(--main-color);
 }
 
-.oversigt > div {
+.Me-Af-Ud {
     display: flex;
-    justify-content: space-between;
-    width: 100%;
-    padding: 20px;
+    padding-left: 20px;
+}
+.Me-Af-Ud p {
+    width: 33%;
+    font-size: 21px;
+    color: var(--main-color);
 }
 
 .medarbejdere ul {
     display: flex;
-    justify-content: space-between;
     width: 100%;
     list-style: none;
+}
+
+.medarbejdere ul li {
+    padding: 20px;
+    width: 33%;
 }
 
 /* ANTAL ANSATTE OG KUNDER */

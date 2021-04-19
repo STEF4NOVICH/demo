@@ -72,7 +72,7 @@ include('header.php');
     <div class="oversigt-container">
         <div class="oversigt">
             <h2>Medarbejder status</h2>
-            <div>
+            <div class="Me-Af-Ud">
                 <p>Medarbejdere</p>
                 <p>Afdeling</p>
                 <p>Udvikling</p>
