@@ -1,0 +1,124 @@
+:root {
+    --main-color: #df5047;
+    --color-dark: #1d2231;
+    --text-grey: #8390a2;
+}
+
+.dashboard-container {
+    background: lightgrey;
+    height: 100vh;
+}
+
+header {
+    display: none;
+}
+
+.dashboard-stripe {
+    background: var(--main-color);
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.dashboard-stripe div input {
+    margin-right: 50px;
+    background: var(--main-color);
+    border: none;
+    border-bottom: 2px solid #fff;
+    outline: none;
+}
+
+.dashboard-stripe div input::placeholder {
+    color: #fff;
+    opacity: 0.7;
+}
+
+.search-wrapper {
+    display: flex;
+    justify-content: flex-end;
+    align-items: baseline;
+    border: 1px solid "f0f0f0";
+    border-radius: 30px;
+    height: 50px;
+    color: white;
+}
+
+/* SIDEBAR */
+
+.sidebar {
+    width: 345px;
+    position: fixed;
+    left: 0;
+    background: #fff;
+}
+
+.sidebar-brand {
+    height: 90px;
+    padding: 1rem 0rem 1rem 2rem;
+    color: #fff;
+    background: var(--main-color);
+    margin-bottom: 20px;
+}
+
+.sidebar-brand span {
+    display: inline-block;
+    padding-right: 1rem;
+}
+.sidebar-menu li {
+    width: 100%;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    list-style: none;
+    border-bottom: var(--main-color) 2px solid;
+}
+
+.sidebar-menu a {
+    padding-left: 1rem;
+    display: block;
+    color: var(--main-color);
+    font-size: 1.1rem;
+    text-decoration: none;
+}
+
+.sidebar-menu a:hover {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+/* MAIN CONTENT */
+
+.main-content {
+    margin-left: 345px;
+    background: #fff;
+    box-shadow: 1px 1px 8px #00000029;
+    position: relative;
+    margin-right: 50px;
+}
+
+.dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.kurvediagram {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+/* MEDARBEJDERE*/
+
+.oversigt {
+    width: auto;
+    height: 200px;
+    background: #fff;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-left: 345px;
+    box-shadow: 1px 1px 8px #00000029;
+}
