@@ -23,7 +23,7 @@ include('header.php');
         <div class="sidebar-menu">
             <ul>
                 <li>
-                    <a href="" class="active"><span>X</span>
+                    <a href="dashboard.php"><span>X</span>
                         <span>Dashboard</span></a>
                 </li>
                 <li>

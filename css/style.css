@@ -176,7 +176,8 @@ nav {
 }
 
 .nav-links li a:hover {
-    background-color: #df5047;
+    font-size: 40px;
+    letter-spacing: 5px;
 }
 
 /* portal login */
