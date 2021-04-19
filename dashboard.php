@@ -70,7 +70,47 @@ include('header.php');
 
 
     <div class="oversigt-container">
-        <div class="oversigt"></div>
+        <div class="oversigt">
+            <h2>Medarbejder status</h2>
+            <div>
+                <p>Medarbejdere</p>
+                <p>Afdeling</p>
+                <p>Udvikling</p>
+            </div>
+            <div class="medarbejdere">
+                <ul>
+                    <li>Steffen Steffensen</li>
+                    <li>Horsens</li>
+                    <li>udvikling</li>
+                </ul>
+
+            </div>
+            <div class="medarbejdere">
+                <ul>
+                    <li>Sørem Jepsen</li>
+                    <li>Aarhus</li>
+                    <li>udvikling</li>
+                </ul>
+            </div>
+            <div class="medarbejdere">
+                <ul>
+                    <li>Kristian P</li>
+                    <li>Hedehusene</li>
+                    <li>udvikling</li>
+                </ul>
+            </div>
+            <div class="medarbejdere">
+                <ul>
+                    <li>Kimmie Nquni</li>
+                    <li>Gedehusene</li>
+                    <li>udvikling</li>
+                </ul>
+            </div>
+        </div>
+
+
+
+
         <div class="antal">
             <div class="ansatte">259 <br> Ansatte</div>
             <div class="kunder">3.241 <br> Kunder</div>

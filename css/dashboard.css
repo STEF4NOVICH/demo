@@ -117,7 +117,7 @@ header {
 .oversigt-container {
     display: flex;
     width: auto;
-    height: 200px;
+    height: auto;
     margin-left: 345px;
     margin-top: 20px;
 }
@@ -129,14 +129,39 @@ header {
     background: #fff;
 }
 
+.oversigt h2 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: var(--main-color);
+}
+
+.oversigt > div {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+}
+
+.medarbejdere ul {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    list-style: none;
+}
+
+/* ANTAL ANSATTE OG KUNDER */
+
 .antal {
     width: 30%;
     margin-right: 50px;
     display: flex;
     flex-direction: column;
+    color: #fff;
 }
 
 .antal > div {
+    box-shadow: 1px 1px 8px #00000029;
     display: flex;
     justify-content: center;
     align-items: center;
