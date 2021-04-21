@@ -107,10 +107,6 @@ include('header.php');
                 </ul>
             </div>
         </div>
-
-
-
-
         <div class="antal">
             <div class="ansatte">259 <br> Ansatte</div>
             <div class="kunder">3.241 <br> Kunder</div>

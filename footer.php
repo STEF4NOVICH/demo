@@ -32,6 +32,7 @@
 
 <script src="navigation.js"></script>
 <script src="image-slider.js"></script>
+<script src="expandable.js"></script>
 
 </body>
 
