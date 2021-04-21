@@ -14,17 +14,20 @@
 
 <body>
     <header class="site-wrapper">
-        <div class="logo">
-            <a href="index.php">
-                <img src="billeder/beritlogo.png" alt="#">
-            </a>
-        </div>
-        <div class="burger">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
-        </div>
+        <div class="logo-burger">
+            <div class="logo">
+                <a href="index.php">
+                    <img src="billeder/beritlogo.png" alt="#">
+                </a>
+            </div>
 
+
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </div>
 
         <nav>
             <ul class="nav-links">

@@ -93,6 +93,12 @@ img {
     }
 }
 /* LOGO + BURGERMENU */
+
+.logo-burger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .logo {
     max-width: 250px;
 }
@@ -222,7 +228,7 @@ nav {
         z-index: 100;
         right: 0px;
         height: 92vh;
-        top: 10vh;
+        top: 11vh;
         background-color: #df5047;
         display: flex;
         flex-direction: column;
