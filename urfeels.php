@@ -19,21 +19,19 @@
         <div class="pin-login" id="mainPinLogin">
             <input type="password" readonly class="pin-login__text">
             <div class="pin-login__numpad">
-             <div class="pin-login__key">0</div>
-                <div class="pin-login__key">0</div>
-                <div class="pin-login__key">0</div> <br>
-                <div class="pin-login__key">0</div>
-                <div class="pin-login__key">0</div>
-                <div class="pin-login__key">0</div> <br>
-                <div class="pin-login__key">0</div>
-                <div class="pin-login__key">0</div>
-                <div class="pin-login__key">0</div><br>
-                <div class="pin-login__key material-icons">backspace</div>
-                <div class="pin-login__key">0</div>
-                <div class="pin-login__key material-icons">check_circle</div>
+                <!-- <div class="pin-login__key">0</div>
+                <div class="pin-login__key material-icons">check_circle</div> -->
             </div>
         </div>
     </div>
+    <script>
+            new PinLogin({
+                el: document.getElementById("mainPinLogin"),
+                loginEndpoint: "login.php",
+                redirectTo: "dashboard.html",
+                maxNumbers: 4
+            });
+    </script>
 </body>
 
 </html>
