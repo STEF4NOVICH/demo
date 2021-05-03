@@ -182,8 +182,8 @@ nav {
 }
 
 .nav-links li a:hover {
-    font-size: 40px;
-    letter-spacing: 5px;
+    font-size: 30px;
+    letter-spacing: 2px;
 }
 
 /* portal login */
@@ -300,7 +300,6 @@ footer {
     margin-top: 40px;
     padding-top: 50px;
     padding-bottom: 50px;
-    height: 400px;
 }
 
 footer h2 {
