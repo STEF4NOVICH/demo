@@ -3,7 +3,7 @@
 session_start();
 
 if (!isset($_SESSION['username'])) {
-    header("Location: urfeels_welcome.php");
+    header("Location: urfeels_finish.php");
 }
 
 ?>
@@ -24,17 +24,14 @@ if (!isset($_SESSION['username'])) {
         </div>
     </header>
         <div class="intro-text">
-            <?php echo "<h1>Goddag " . $_SESSION['username'] . "</h1>"; ?>
-            <p>Her på Berit's hjemmepleje 
-                    vægter vi dig og dine behov. <br> <br>
-                    
-                    Derfor bedes du venligst 
-                    vurderer sessionen med din 
-                    hjemmehjælper.</p>
+            <?php echo "<h1>Sådan " . $_SESSION['username'] . "</h1>"; ?>
+            <p>Vi har indsamlet og gemt
+                    dine vurderinger af hjemmehjælperne siger derfor tak for hjælpen og fortsat god dag!  <br> <br>
+                    For at afslutte applikationen behøver du blot at trykke på "Log ud" knappen nederst på siden.</p>
         </div>
         
         <div class="btn-next">
-            <a href="rating/rating-index.php">Fortsæt</a>
+            <a href="rating/rating-index.php">Gå tilbage</a>
         </div>  
 
         <div class="btn-logout">
