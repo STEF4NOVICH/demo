@@ -41,6 +41,9 @@ if (isset($_POST['submit'])) {
 </head>
 
 <body>
+<div class="logo">
+<img src="billeder/urfeel_logo.svg" alt="">
+</div>
 <div class="container">
 		<form action="" method="POST" class="login-email">
 			<p class="login-text" style="font-size: 2rem; font-weight: 800;">Login</p>

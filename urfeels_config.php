@@ -3,7 +3,7 @@
 $server = "localhost";
 $user = "root";
 $pass = "";
-$database = "urfeels_login_register";
+$database = "login_register_urfeels";
 
 $conn = mysqli_connect($server, $user, $pass, $database);
 
