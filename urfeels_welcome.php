@@ -14,13 +14,13 @@ if (!isset($_SESSION['username'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome</title>
-    <link rel="stylesheet" href="css/urfeels_welcome.css">
+    <link rel="stylesheet" href="rating/css/urfeels_welcome.css">
 </head>
 <body>
     <div class="container">
     <header>
         <div class="logo">
-            <img src="billeder/urfeels_logo2.svg" alt="">
+            <img src="rating/img/urfeels_logo2.svg" alt="">
         </div>
     </header>
         <div class="intro-text">

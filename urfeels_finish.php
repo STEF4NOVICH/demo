@@ -20,7 +20,7 @@ if (!isset($_SESSION['username'])) {
     <div class="container">
     <header>
         <div class="logo">
-            <img src="billeder/urfeels_logo2.svg" alt="">
+            <img src="rating/img/urfeels_logo2.svg" alt="">
         </div>
     </header>
         <div class="intro-text">
